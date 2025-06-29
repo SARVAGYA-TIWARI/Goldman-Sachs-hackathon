@@ -55,5 +55,11 @@ In a real-world broker-dealer scenario:
 ---
 
 ## 📁 Project Structure
-
+stock-movement-optimizer/
+┣ main.py # Driver function to read input and process all stocks
+┣ process_stock.py # Core routing algorithm for a single stock
+┣ dijkstra.py # Utility module for shortest path computation
+┣ data/ # Input files (stock prices, accounts, flows, balances)
+┣ sample_output.csv # Sample movement log (stock_id, src, dst, quantity)
+┗ README.md # Project documentation
 
